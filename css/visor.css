@@ -2,7 +2,7 @@
  * @Author: wellingtonmigliari
  * @Date:   2023-03-07T10:41:35+01:00
  * @Last modified by:   wellingtonmigliari
- * @Last modified time: 2023-03-11T17:53:47+01:00
+ * @Last modified time: 2023-03-13T10:03:43+01:00
  */
 
 
@@ -30,7 +30,7 @@ float:left;
 background-color: black;
 background-repeat:no-repeat;
 width:250px;
-margin:0px;
+margin-top:40px;
 text-align: center;
 font-size:12px;
 font-family: 'Strait', sans-serif;
