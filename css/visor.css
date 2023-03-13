@@ -1,0 +1,367 @@
+/**
+ * @Author: wellingtonmigliari
+ * @Date:   2023-03-07T10:41:35+01:00
+ * @Last modified by:   wellingtonmigliari
+ * @Last modified time: 2023-03-11T17:53:47+01:00
+ */
+
+
+
+body
+{
+  margin:0px;
+  padding:0px;
+	font-family: "Open Sans", arial;
+	background-color: #27b4a3;
+	color:#fff;
+	font-weight:300;
+
+}
+
+
+.logo{
+
+}
+
+.settings {
+
+height:100px;
+float:left;
+background-color: black;
+background-repeat:no-repeat;
+width:250px;
+margin:0px;
+text-align: center;
+font-size:12px;
+font-family: 'Strait', sans-serif;
+
+}
+
+
+
+
+
+
+/* ScrolBar  */
+.scrollbar
+{
+
+height: 90%;
+width: 100%;
+overflow-y: hidden;
+overflow-x: hidden;
+}
+
+.scrollbar:hover
+{
+
+height: 90%;
+width: 100%;
+overflow-y: scroll;
+overflow-x: hidden;
+}
+
+/* Scrollbar Style */
+
+
+
+#style-1::-webkit-scrollbar-track
+{
+border-radius: 0px;
+}
+
+#style-1::-webkit-scrollbar
+{
+width: 5px;
+background-color: black;
+}
+
+#style-1::-webkit-scrollbar-thumb
+{
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+background-color: #fff;
+}
+/* Scrollbar End */
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 0px;
+  font-size: 12px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: inline-block;
+  background-color: #27b4a3;
+  min-width: 30px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #fff;
+  padding: 17px 16px 0px 80px;
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+  height: 40px;
+}
+
+.dropdown-content a:hover {background-color: #89d2c0; color: #000;}
+
+.dropdown:hover .dropdown-content {display: inline;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.rotateimg90 {
+  -webkit-transform:rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+.fa-2x {
+font-size: 1.7em;
+
+}
+
+.fa {
+position: relative;
+display: table-cell;
+width: 55px;
+height: 56px;
+text-align: center;
+top:12px;
+font-size:20px;
+
+}
+
+.main-menu:hover, nav.main-menu.expanded {
+width:500px;
+overflow:hidden;
+opacity:1;
+
+}
+
+.main-menu {
+background: #000;
+position:absolute;
+top:0;
+bottom:0;
+height:100%;
+left:0;
+width:55px;
+overflow:hidden;
+-webkit-transition:width .2s linear;
+transition:width .2s linear;
+-webkit-transform:translateZ(0) scale(1,1);
+  opacity:1;
+}
+
+.main-menu>ul {
+margin:7px 0;
+
+}
+
+.main-menu li {
+position:relative;
+display:block;
+width:500px;
+}
+
+.main-menu li>a {
+position:relative;
+width: 500px;
+display:table;
+border-collapse:collapse;
+border-spacing:0;
+color:#d9f6f6;
+font-size: 13px;
+text-decoration:none;
+-webkit-transform:translateZ(0) scale(1,1);
+-webkit-transition:all .4s linear;
+transition:all .14s linear;
+font-family: 'Strait', sans-serif;
+border-top:#000;
+
+}
+
+.main-menu .nav-icon {
+
+position:relative;
+display:table-cell;
+width:150px;
+height:36px;
+text-align:center;
+vertical-align:middle;
+font-size:18px;
+}
+
+.main-menu .nav-text  {
+
+position:relative;
+display:table-cell;
+vertical-align:middle;
+width:430px;
+font-family: 'Titillium Web', sans-serif;
+}
+
+.main-menu .share {
+}
+
+
+
+.main-menu .fb-like {
+
+left: 180px;
+position:absolute;
+top: 15px;
+}
+
+.main-menu>ul.logout {
+position:absolute;
+left:0;
+bottom:0;
+
+}
+
+.no-touch .scrollable.hover {
+overflow-y:hidden;
+
+}
+
+.no-touch .scrollable.hover:hover {
+overflow-y:auto;
+overflow:visible;
+
+}
+
+
+/* Logo Hover Property */
+
+
+.settings:hover, settings:focus {
+  background:url( https://s17.postimg.org/74cl7s05b/logo_hover.jpg);
+  -webkit-transition: all 0.2s ease-in-out, width 0, height 0, top 0, left 0;
+-moz-transition: all 0.2s ease-in-out, width 0, height 0, top 0, left 0;
+-o-transition: all 0.2s ease-in-out, width 0, height 0, top 0, left 0;
+transition: all 0.2s ease-in-out, width 0, height 0, top 0, left 0;
+}
+
+.settings:active, settings:focus {
+  background:url( https://s3.postimg.org/bqfooag4z/startific.jpg);
+  -webkit-transition: all 0.1s ease-in-out, width 0, height 0, top 0, left 0;
+-moz-transition: all 0.1s ease-in-out, width 0, height 0, top 0, left 0;
+-o-transition: all 0.1s ease-in-out, width 0, height 0, top 0, left 0;
+transition: all 0.1s ease-in-out, width 0, height 0, top 0, left 0;
+}
+
+
+a:hover,a:focus {
+text-decoration:none;
+border-left:0px solid #27b4a3;
+}
+
+nav {
+-webkit-user-select:none;
+-moz-user-select:none;
+-ms-user-select:none;
+-o-user-select:none;
+user-select:none;
+
+}
+
+nav ul,nav li {
+outline:0;
+margin:0;
+padding:0;
+text-transform: uppercase;
+}
+
+
+
+
+/* Darker element side menu Start*/
+
+
+.darkerli
+{
+background-color: #000;
+text-transform:capitalize;
+}
+
+/* Darker element side menu End*/
+
+
+
+.social-media{
+  align-items: center;
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+.social-media:hover{
+  transform: translateX(calc(-100% + 60px));
+}
+
+.social-media i{
+  color: #fff;
+  font-size: 1.7em;
+  padding: 8px;
+  text-align: center;
+  width: 50px;
+}
+.social-media a{
+  color: #fff;
+  padding: 0 10px;
+  text-align: center;
+  text-decoration: none;
+}
+.social-media-container{
+  top: 50%;
+  list-style-type: none;
+  padding: 0;
+  position: fixed;
+  left: calc(100% - 60px);
+  transform: translateY(-50%);
+  min-width: 140px;
+}
+
+
+.social-media.spotify{
+  background-color: #000;
+}
+
+.social-media.entrevistas{
+  background-color: #000;
+}
+.social-media.instagram{
+  background-color: #000;
+}
+
+
+.main-menu li:hover>a,nav.main-menu li.active>a,.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus,.dropdown-menu>.active>a,.dropdown-menu>.active>a:hover,.dropdown-menu>.active>a:focus,.no-touch .dashboard-page nav.dashboard-menu ul li:hover a,.dashboard-page nav.dashboard-menu ul li.active a {
+color:#fff;
+background-color:#27b4a3;
+text-shadow: 0px 0px 0px;
+transition-duration: 0.5s;
+}
+.area {
+float: left;
+background: #27b4a3;
+width: 100%;
+height: 100%;
+}
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Titillium WebLight'), local('TitilliumWeb-Light'), url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v2/anMUvcNT0H1YN4FII8wpr24bNCNEoFTpS2BTjF6FB5E.woff) format('woff');
+}
